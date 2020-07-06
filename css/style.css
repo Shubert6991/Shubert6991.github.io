@@ -137,7 +137,7 @@ header{
 }
 
 .logo{
-    max-width: 200px;
+    max-width: 250px;
 }
 
 .nav {
@@ -314,13 +314,66 @@ header{
     margin-bottom: 4em;
 }
 
-.skill{
-    max-width: 500px;
+.skill-container {
+    max-width: 600px;
     margin: 0 auto;
+    width: 100%; /* Full width */
+    background-color: var(--clr-dark); /* Grey background */
 }
 
+.skill{
+    /* max-width: 500px; */
+    /* margin: 0 auto; */
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: var(--clr-light); /* White text color */
+}
+
+.html{
+    width: 100%;
+    background-color: var(--clr-accent);
+}
+
+.css{
+    width: 90%;
+    background-color: var(--clr-accent);
+}
+
+.javascript{
+    width: 75%;
+    background-color: var(--clr-accent);
+}
+
+.python{
+    width: 60%;
+    background-color: var(--clr-accent);
+}
+
+.java{
+    width: 80%;
+    background-color: var(--clr-accent);
+}
+
+.cpp{
+    width: 85%;
+    background-color: var(--clr-accent);
+}
+
+.sql{
+    width: 60%;
+    background-color: var(--clr-accent);
+}
+
+.bash{
+    width: 10%;
+    background-color: var(--clr-accent);
+}
+
+
+
 @media (min-width: 800px){
-    .skills {
+    /* .skills {
         display: flex;
         max-width: 1000px;
         margin-left: auto;
@@ -329,7 +382,7 @@ header{
 
     .skill + .skill{
         margin-left: 2em;
-    }
+    } */
 }
 
 /* about me */
