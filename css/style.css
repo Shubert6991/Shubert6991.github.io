@@ -288,9 +288,11 @@ header{
 
 .my-skills{
     background-color: var(--clr-dark);
-    background-image: url(../img/pr1.jpg);
+    background-image: url(../img/skills2.jpg);
     background-size: cover;
-    background-blend-mode: multiply;
+    /* background-blend-mode: multiply; */
+    /* background-blend-mode: hard-light; */
+    background-blend-mode: soft-light;
     color: var(--clr-light);
     text-align: center;
 }
