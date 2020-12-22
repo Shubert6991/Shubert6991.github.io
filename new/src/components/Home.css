@@ -1,0 +1,24 @@
+.homecard{
+    width: 15%;
+    border-style: none;
+}
+
+.divhome{
+    padding-top: 1em;
+}
+
+.card-img{
+    border-radius: 3%;
+}
+
+.card-body{
+    margin-top: 5px;
+    background-color:white;
+    border-radius: 2%;
+}
+
+@media (max-width: 600px){
+    .homecard{
+        width: 45%;
+    }
+}
