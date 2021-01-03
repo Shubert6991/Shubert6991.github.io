@@ -7,16 +7,16 @@ import logo from "../images/logo.png";
 const NavigationBar = () => {
   return (
     <Navbar bg="light" expand="lg">
-      <Navbar.Brand href="#home">
+      <Navbar.Brand href="/">
         <img src={logo} alt="Shubert.Codes" className="logo" />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#projects">Projects</Nav.Link>
-          <Nav.Link href="#resume">Resume</Nav.Link>
-          <Nav.Link href="#about">About Me</Nav.Link>
+          <Nav.Link href="/#home">Home</Nav.Link>
+          <Nav.Link href="/#projects">Projects</Nav.Link>
+          <Nav.Link href="/#resume">Resume</Nav.Link>
+          <Nav.Link href="/#footer">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
