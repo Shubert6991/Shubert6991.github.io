@@ -6,7 +6,7 @@
 * [Screenshots](#screenshots)
 
 ## General info
-A responsive single-page website to showcase my proyects.
+A responsive single-page website to showcase my projects.
 	
 ## Technologies
 Project is created with:
