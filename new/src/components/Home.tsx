@@ -4,7 +4,7 @@ import "./Home.css";
 import ParticlesBg from "particles-bg";
 
 import Card from "react-bootstrap/Card";
-import pic from "../images/me.jpg";
+import pic from "../images/profile.jpg";
 
 const Home = () => {
   return (
@@ -15,20 +15,9 @@ const Home = () => {
         <Card.Body>
           <Card.Title>Shubert Alonzo</Card.Title>
           <Card.Text>
-            <h6>Web Developer</h6>
-            <p>
-              
-              
-              I'm a developer based on 
-              
-              
-              <strong> Guatemala City,Guatemala</strong>. Interested on create
-             
-             
-              responsive and dinamic websites.
-            
-            
-            </p>
+            <strong> Web Developer</strong> <br /> I'm a developer based on{" "}
+            <strong> Guatemala City,Guatemala</strong>. Interested on create
+            responsive and dinamic websites.
           </Card.Text>
         </Card.Body>
       </Card>

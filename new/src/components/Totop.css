@@ -1,0 +1,16 @@
+.toTopButton{
+  position: fixed;
+  bottom: 1;
+  right: 1;
+}
+
+@media (max-width: 600px){
+  .toTopButton{
+    bottom: 0;
+    right: 0;
+    margin-bottom: 3px;
+    margin-right: 3px;
+    height: 50px;
+    width: 50px;
+  }
+}

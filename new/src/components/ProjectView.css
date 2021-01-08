@@ -1,0 +1,40 @@
+.divpview {
+  padding: 3% 5% 0 5%;
+}
+.carousel {
+  width: 1200px;
+}
+
+.headerpview {
+  text-align: center;
+}
+
+.headerpview img{
+  height: 100%;
+}
+
+.btnContainer{
+  text-align: right;
+}
+
+.carousel-inner{
+  max-height: 720px !important;
+}
+
+@media(max-width: 600px){
+  .headerpview img{
+    height: 200px;
+  }
+
+  .carousel {
+    width: 100%;
+  }
+
+  .btnContainer{
+    text-align: center;
+  }
+
+  .carousel-inner{
+    max-height: 200px !important;
+  }
+}

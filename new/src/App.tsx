@@ -8,7 +8,9 @@ import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 import NavigationBar from "./components/Navbar";
 import ToTop from "./components/Totop";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import ProjectView from "./components/ProjectView";
+
 function App() {
   return (
     <Router>
@@ -19,13 +21,14 @@ function App() {
           <Projects />
           <Resume />
           <Contact />
+          <ToTop />
         </div>
       </Route>
       <Route path="/test">
-        <ToTop/>
-      </Route>  
-      <Route path="*">
-      </Route>  
+        <ToTop />
+      </Route>
+      <Route path='/project/:id' children={<ProjectView />}></Route>
+      <Route path="*"></Route>
     </Router>
   );
 }
