@@ -20,7 +20,6 @@ function App() {
           <Home />
           <Projects />
           <Resume />
-          <Contact />
           <ToTop />
         </div>
       </Route>
@@ -28,7 +27,10 @@ function App() {
         <ToTop />
       </Route>
       <Route path='/project/:id' children={<ProjectView />}></Route>
-      <Route path="*"></Route>
+      <Route path="*"></Route>.
+      <div className="App">
+        <Contact />
+      </div>
     </Router>
   );
 }
