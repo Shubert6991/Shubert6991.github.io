@@ -34,7 +34,7 @@ const ProjectView = () => {
   }, [param]);
 
   const goBack = () => {
-    window.location.href = "/";
+    window.history.go(-1);
   };
   return (
     <div className="d-flex justify-content-center divpview">
