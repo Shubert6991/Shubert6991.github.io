@@ -18,6 +18,7 @@ const ProjectView = () => {
   const [img1, setImg1] = useState<any>();
   const [img2, setImg2] = useState<any>();
   const [img3, setImg3] = useState<any>();
+  const [link, setLink] = useState<string>();
   const param = useParams();
 
   useEffect(() => {
@@ -29,6 +30,7 @@ const ProjectView = () => {
     setImg1(newProject?.img1);
     setImg2(newProject?.img2);
     setImg3(newProject?.img3);
+    setLink(newProject?.github);
   }, [param]);
 
   const goBack = () => {
@@ -54,6 +56,9 @@ const ProjectView = () => {
         <Card.Body>
           <Card.Title>{name}</Card.Title>
           <Card.Text>{description}</Card.Text>
+          <Card.Text>
+            <a href={link}>Go to github</a>
+          </Card.Text>
           <div className="btnContainer">
             <Button variant="primary" onClick={goBack}>
               <FontAwesomeIcon icon={faArrowAltCircleLeft} size="lg" /> Go Back
