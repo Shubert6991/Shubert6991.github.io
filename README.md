@@ -26,3 +26,25 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ## Screenshots
 
 ![screenshot](screen.png)
+
+Posible structure:
+
+src/
+├── components/
+│   ├── Navbar.vue
+│   ├── HeroSection.vue
+│   ├── AboutSection.vue
+│   ├── ProjectsSection.vue
+│   ├── ContactSection.vue
+│   └── Footer.vue
+├── composables/
+│   └── useScrollAnimation.js
+├── views/
+│   └── Home.vue              # 👈 All sections live here for now
+│   # Future:
+│   # ├── Blog.vue
+│   # └── ProjectDetail.vue
+├── router/
+│   └── index.js
+├── App.vue
+└── main.js
