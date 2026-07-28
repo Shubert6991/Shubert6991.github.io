@@ -1,40 +1,40 @@
 @import 'tailwindcss';
 
 @theme {
-/* ===== TERMINAL GREEN (Primary) ===== */
---color-terminal-50:  #ecfdf5;
---color-terminal-100: #d1fae5;
---color-terminal-200: #a7f3d0;
---color-terminal-300: #6ee7b7;
---color-terminal-400: #34d399;
---color-terminal-500: #00e87b;    /* ✨ Main accent */
---color-terminal-600: #059669;
---color-terminal-700: #047857;
---color-terminal-800: #065f46;
---color-terminal-900: #064e3b;
+  /* ===== TERMINAL GREEN (Primary) ===== */
+  --color-terminal-50: #ecfdf5;
+  --color-terminal-100: #d1fae5;
+  --color-terminal-200: #a7f3d0;
+  --color-terminal-300: #6ee7b7;
+  --color-terminal-400: #34d399;
+  --color-terminal-500: #00e87b; /* ✨ Main accent */
+  --color-terminal-600: #059669;
+  --color-terminal-700: #047857;
+  --color-terminal-800: #065f46;
+  --color-terminal-900: #064e3b;
 
-/* ===== SURFACE (Backgrounds) ===== */
---color-surface-50:  #f8fafc;     /* Light mode bg */
---color-surface-100: #f1f5f9;
---color-surface-200: #e2e8f0;
---color-surface-300: #cbd5e1;
---color-surface-800: #1a1b26;     /* Dark mode card */
---color-surface-900: #13141c;     /* Dark mode bg */
---color-surface-950: #0b0c12;     /* Dark mode deep bg */
+  /* ===== SURFACE (Backgrounds) ===== */
+  --color-surface-50: #f8fafc; /* Light mode bg */
+  --color-surface-100: #f1f5f9;
+  --color-surface-200: #e2e8f0;
+  --color-surface-300: #cbd5e1;
+  --color-surface-800: #1a1b26; /* Dark mode card */
+  --color-surface-900: #13141c; /* Dark mode bg */
+  --color-surface-950: #0b0c12; /* Dark mode deep bg */
 
-/* ===== ACCENT (Secondary highlights) ===== */
---color-accent-cyan:    #22d3ee;  /* Links, hover */
---color-accent-purple:  #a78bfa;  /* Tags, badges */
---color-accent-amber:   #fbbf24;  /* Warnings, stars */
---color-accent-pink:    #f472b6;  /* Special highlights */
+  /* ===== ACCENT (Secondary highlights) ===== */
+  --color-accent-cyan: #22d3ee; /* Links, hover */
+  --color-accent-purple: #a78bfa; /* Tags, badges */
+  --color-accent-amber: #fbbf24; /* Warnings, stars */
+  --color-accent-pink: #f472b6; /* Special highlights */
 
-/* ===== TEXT ===== */
---color-text-primary:   #e2e8f0;  /* Dark mode main text */
---color-text-secondary: #94a3b8;  /* Dark mode muted text */
---color-text-light-primary:  #1e293b; /* Light mode main text */
---color-text-light-secondary: #64748b; /* Light mode muted */
+  /* ===== TEXT ===== */
+  --color-text-primary: #e2e8f0; /* Dark mode main text */
+  --color-text-secondary: #94a3b8; /* Dark mode muted text */
+  --color-text-light-primary: #1e293b; /* Light mode main text */
+  --color-text-light-secondary: #64748b; /* Light mode muted */
 
-/* ===== FONTS ===== */
---font-mono: 'JetBrains Mono', 'Fira Code', monospace;
---font-sans: 'Inter', system-ui, sans-serif;
+  /* ===== FONTS ===== */
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --font-sans: 'Inter', system-ui, sans-serif;
 }
