@@ -5,7 +5,9 @@ import './style.css'
 </script>
 
 <template>
-<Navbar />
-<router-view />
-<Footer />
+  <div class="ctp-base">
+    <Navbar />
+    <router-view />
+    <Footer />
+  </div>
 </template>

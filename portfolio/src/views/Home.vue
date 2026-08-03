@@ -6,8 +6,8 @@ import ContactSection from '../components/ContactSection.vue'
 </script>
 
 <template>
-<AboutSection id="about" />
-<Projects id="projects" />
-<Experience id="experience" />
-<ContactSection id="contact" />
+  <AboutSection id="about" />
+  <Projects id="projects" />
+  <Experience id="experience" />
+  <ContactSection id="contact" />
 </template>
