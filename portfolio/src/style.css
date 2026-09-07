@@ -1,27 +1,27 @@
 @import 'tailwindcss';
 
-:root {
-  /* Default to Mocha (Dark) */
-  --bg-base: #1e1e2e;
-  --bg-mantle: #181825;
-  --bg-crust: #11111b;
-  --border-subtle: #313244;
-  --text-main: #cdd6f4;
-  --text-sub: #a6adc8;
-  --accent-mauve: #cba6f7;
-  --accent-green: #a6e3a1;
-  --accent-blue: #89b4fa;
-}
+@custom-variant dark (&:where(.dark, .dark *));
 
-[data-theme='light'] {
+@theme {
+  /* Default to Mocha (Dark) */
+  --color-base-dark: #1e1e2e;
+  --color-mantle-dark: #181825;
+  --color-crust-dark: #11111b;
+  --color-border-subtle-dark: #313244;
+  --color-text-main-dark: #cdd6f4;
+  --color-text-sub-dark: #a6adc8;
+  --color-accent-mauve-dark: #cba6f7;
+  --color-accent-green-dark: #a6e3a1;
+  --color-accent-blue-dark: #89b4fa;
+
   /* Switch to Latte (Light) */
-  --bg-base: #eff1f5;
-  --bg-mantle: #e6e9ef;
-  --bg-crust: #dce0e8;
-  --border-subtle: #ccd0da;
-  --text-main: #4c4f69;
-  --text-sub: #6c6f85;
-  --accent-mauve: #8839ef;
-  --accent-green: #40a02b;
-  --accent-blue: #1e66f5;
+  --color-base: #eff1f5;
+  --color-mantle: #e6e9ef;
+  --color-crust: #dce0e8;
+  --color-border-subtle: #ccd0da;
+  --color-text-main: #4c4f69;
+  --color-text-sub: #6c6f85;
+  --color-accent-mauve: #8839ef;
+  --color-accent-green: #40a02b;
+  --color-accent-blue: #1e66f5;
 }
